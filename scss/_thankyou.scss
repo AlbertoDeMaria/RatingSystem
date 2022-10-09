@@ -1,0 +1,27 @@
+.thank-you{
+    text-align: center;
+    padding: 20px 0 0 0;
+    width: 100%;
+    
+    img{
+        padding-bottom: 25px;
+    }
+
+    .result-container{
+        margin: 10px auto 50px auto;
+        border-radius: 50px;
+        background-color: #262f38;
+        padding: 0px 15px;
+        width: 150px;
+        height: 40px;
+
+        .result{
+            color: $Orange;
+            font-size: .9rem;
+        }
+    }
+
+    h1{
+        padding-bottom: 5px;
+    }
+}

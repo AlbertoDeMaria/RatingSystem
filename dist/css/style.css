@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;600&display=swap");
+body {
+  background-color: #121417;
+  font-family: 'Overpass';
+}
+
+.btn {
+  border: 0px;
+  cursor: pointer;
+  font-family: 'Overpass';
+  font-weight: 600;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .card {
+  background: #1e222d;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1e222d), to(#171e28));
+  background: linear-gradient(180deg, #1e222d 0%, #171e28 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e222d",endColorstr="#171e28",GradientType=1);
+  width: 360px;
+  padding: 35px;
+  border-radius: 20px;
+}
+
+.container .card h1 {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 25px 0px 0px 0px;
+}
+
+.container .card p {
+  color: #7c8798;
+  font-size: 1rem;
+  line-height: 160%;
+  padding: 10px 0;
+}
+
+.container .card .main .star {
+  background-color: #242f38;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+.container .card .main .vote-container {
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .card .main .vote-container .vote {
+  padding: 10px;
+  font-size: 1rem;
+  width: 50px;
+  height: 50px;
+  line-height: calc(50px - 1rem);
+  border-radius: 50px;
+  background-color: #262f38;
+  color: #7c8798;
+}
+
+.container .card .main .vote-container .vote:hover {
+  background-color: #959eac;
+  color: white;
+}
+
+.container .card .main .vote-container .active, .container .card .main .vote-container .active:hover {
+  background-color: #fb7413;
+  color: white;
+}
+
+.container .card .main .submit {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  background-color: #fb7413;
+  color: white;
+}
+
+.container .card .main .submit:hover {
+  background-color: white;
+  color: #fb7413;
+}
+
+.container .card .thank-you {
+  text-align: center;
+  padding: 20px 0 0 0;
+  width: 100%;
+}
+
+.container .card .thank-you img {
+  padding-bottom: 25px;
+}
+
+.container .card .thank-you .result-container {
+  margin: 10px auto 50px auto;
+  border-radius: 50px;
+  background-color: #262f38;
+  padding: 0px 15px;
+  width: 150px;
+  height: 40px;
+}
+
+.container .card .thank-you .result-container .result {
+  color: #fb7413;
+  font-size: .9rem;
+}
+
+.container .card .thank-you h1 {
+  padding-bottom: 5px;
+}
+/*# sourceMappingURL=style.css.map */

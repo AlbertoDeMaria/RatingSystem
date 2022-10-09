@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;600&display=swap');
+
+body{
+    background-color: $VeryDarkBlue;
+    font-family: 'Overpass';
+}
+
+.btn{
+    border: 0px;
+    cursor: pointer;
+    font-family: 'Overpass';
+    font-weight: 600;
+}
+
+.hide{
+    display: none;
+}
