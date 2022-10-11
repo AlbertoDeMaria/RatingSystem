@@ -1,6 +1,6 @@
 # Rating system
 
-I used a Frontend Mentor challenge to train in fetch API.
+I used a Frontend Mentor challenge to train in multiple screen component.
 
 Frontend Mentor challenge link: https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI
 
