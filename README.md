@@ -1,6 +1,6 @@
 # Rating system
 
-I used a Frontend Mentor challenge to train in multiple screen component.
+I used a Frontend Mentor challenge to train in multi-steps component.
 
 Frontend Mentor challenge link: https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI
 
